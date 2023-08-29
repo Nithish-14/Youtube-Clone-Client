@@ -41,7 +41,7 @@ const Register = () => {
                 body: JSON.stringify(userDetails)
             }
 
-            const response = await fetch("https://youtube-clone-ten-iota-delta.vercel.app//register/", options)
+            const response = await fetch("https://youtube-clone-server-nine.vercel.app/register/", options)
             
             if (response.ok) {
                const data = await response.json();

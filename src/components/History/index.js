@@ -58,7 +58,7 @@ const History = () => {
             },
         };
 
-        const response = await fetch("https://youtube-clone-ten-iota-delta.vercel.app//user/history", options);
+        const response = await fetch("https://youtube-clone-server-nine.vercel.app/user/history", options);
         if (response.ok) {
             const {historyVideos} = await response.json();
             addhistoryVideos(historyVideos)
