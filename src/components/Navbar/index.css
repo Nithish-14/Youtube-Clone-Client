@@ -1,0 +1,25 @@
+.youtube-logo{
+    margin-left: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+    .youtube-logo{
+        margin-left: 5px;
+    }
+} 
+
+.profile-icon{
+    margin-right: 6px;
+}
+
+.mic-icon{
+    margin-right: 10px;
+}
+
+.mic-icon-primary{
+    margin-left: 15px;
+}
+
+.nav-link-element{
+    text-decoration: none;
+}

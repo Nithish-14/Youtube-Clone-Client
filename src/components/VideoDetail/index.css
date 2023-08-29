@@ -1,0 +1,33 @@
+.icon{
+    margin-right: 6px;
+}
+
+.channel-name-link-element{
+    text-decoration: none;
+}
+
+.overlay-container{
+    background-color: hsl(0, 0%, 7%);
+    padding: 25px;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media screen and (min-width: 500px) {
+    .overlay-container{
+        width: 270px;
+    }
+}
+
+.popup-arrow {
+    color: hsl(0, 0%, 7%);
+  }
+
+.popup-para{
+    color: #f1f5f9;
+    font-family: sans-serif;
+    margin-top: 0px;
+    margin-bottom: 20px
+}
