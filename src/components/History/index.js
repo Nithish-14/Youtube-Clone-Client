@@ -58,7 +58,7 @@ const History = () => {
             },
         };
 
-        const response = await fetch("https://youtube-clone-server-lqs9.vercel.app/user/history", options);
+        const response = await fetch("https://youtube-clone-server-9svx.vercel.app/user/history", options);
         if (response.ok) {
             const {historyVideos} = await response.json();
             addhistoryVideos(historyVideos)

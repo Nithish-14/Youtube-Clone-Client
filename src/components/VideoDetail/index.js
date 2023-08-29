@@ -144,7 +144,7 @@ const VideoDetail = () => {
                 body: JSON.stringify(videoDetail)
             };
 
-            await fetch("https://youtube-clone-server-lqs9.vercel.app/user/addlikedvideo", options);
+            await fetch("https://youtube-clone-server-9svx.vercel.app/user/addlikedvideo", options);
         }
 
         const onClickSaveButton = async () => {
@@ -159,7 +159,7 @@ const VideoDetail = () => {
                 body: JSON.stringify(videoDetail)
             };
 
-            await fetch("https://youtube-clone-server-lqs9.vercel.app/user/addwatchlater", options);
+            await fetch("https://youtube-clone-server-9svx.vercel.app/user/addwatchlater", options);
         }
 
                 return (
