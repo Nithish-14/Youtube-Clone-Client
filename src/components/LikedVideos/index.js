@@ -59,7 +59,7 @@ const LikedVideos = () => {
             },
         };
 
-        const response = await fetch("https://youtube-clone-server-nine.vercel.app/user/liked", options);
+        const response = await fetch("https://youtube-clone-server-lqs9.vercel.app/user/liked", options);
         if (response.ok) {
             const {likedVideos} = await response.json();
             addlikedVideos(likedVideos)

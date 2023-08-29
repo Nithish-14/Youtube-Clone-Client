@@ -24,7 +24,7 @@ const VideoCard = ({videoItem}) => {
                 body: JSON.stringify(videoItem)
             };
 
-            const response = await fetch("https://youtube-clone-server-nine.vercel.app/user/addhistory", options);
+            const response = await fetch("https://youtube-clone-server-lqs9.vercel.app/user/addhistory", options);
             console.log(await response.json()) 
     }
     

@@ -46,7 +46,7 @@ const Login = () => {
                 body: JSON.stringify(userDetails)
             }
 
-            const response = await fetch("https://youtube-clone-server-nine.vercel.app/login/", options)
+            const response = await fetch("https://youtube-clone-server-lqs9.vercel.app/login/", options)
             
             if (response.ok) {
                const data = await response.json();
