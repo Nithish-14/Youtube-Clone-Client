@@ -91,7 +91,7 @@ const Sidebar = () => (
                         {category4.map(each => <SidebarList key={each.name} item={each} />)}
                     </SidebarListContainer>
                     <SidebarListContainer>
-                        <SidebarBottomPara>This website is completely a clonable website build for an educational purpose.</SidebarBottomPara>
+                        <SidebarBottomPara>This website is completely a cloned version of YouTube built for an educational purpose.</SidebarBottomPara>
                         <CopyRightPara><BiCopyright color="#757272"/><SpanElement>2023</SpanElement> NITHISH<br /> All Rights Reserved.</CopyRightPara>
                     </SidebarListContainer>
                 </SidebarContainer>
